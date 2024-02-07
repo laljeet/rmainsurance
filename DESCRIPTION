@@ -1,0 +1,13 @@
+Package: rmainsurance
+Type: Package
+Title: Analysis of Cause of Loss
+Version: 0.1.0
+Author: Laljeet Sangha
+Maintainer: The package maintainer <laljeetstudy@gmail.com>
+Description: This dataset provides comprehensive coverage of insurance data related to various commodities, including details about policies, coverage, losses, and premiums. It is designed for analysis of insurance trends, policy decisions, and risk assessment in the agricultural sector..
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 2.10)
+RoxygenNote: 7.3.1
