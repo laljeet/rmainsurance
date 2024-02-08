@@ -1,4 +1,4 @@
-#' colsom1996
+#' Insurance Data
 #'
 #' A dataset containing detailed insurance and cause of Loss.
 #'
@@ -42,4 +42,4 @@
 #' }
 #' @details This dataset provides comprehensive coverage of insurance data related to various commodities, including details about policies, coverage, losses, and premiums. It is designed for analysis of insurance trends, policy decisions, and risk assessment in the agricultural sector.
 #' @source Summarized participation information broken down by the causes of loss.- https://www.rma.usda.gov/SummaryOfBusiness/CauseOfLoss
-"colsom1996"
+"Insurance_data"

@@ -76,16 +76,7 @@ rename_based_on_year <- function(dlist) {
 
 # Apply the function to your data_list
 dat_list <- rename_based_on_year(dat_list)
-
-# Check the new names
-names(dat_list)
-
-library(purrr)
-library(devtools)
-
-walk2(dat_list, names(dat_list), function(obj, name) {
-  assign(name, obj)
-  do.call("use_data", list(as.name(name), overwrite = TRUE))
-})
+Insurance_data <- dat_list
+usethis::use_data(Insurance_data)
 
 devtools::document()
